@@ -1,0 +1,89 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Kumbh Sans", sans-serif;
+    background-color: hsl(185, 75%, 39%);
+    background-image:url("https://raw.githubusercontent.com/Jugo-JS/profile-card-component/ac5e25a3590fa5370dd11fcd145339fcc1ed1813/images/bg-pattern-bottom.svg");
+}
+
+.card {
+	margin: 100px auto;
+	text-align: center;
+	overflow: hidden;
+	border-radius:20px;
+	width: 22vw;
+	height:auto; 
+	box-sizing: border-box;
+}
+
+.card-bgimg{
+	background-image: url("https://raw.githubusercontent.com/Jugo-JS/profile-card-component/ac5e25a3590fa5370dd11fcd145339fcc1ed1813/images/bg-pattern-card.svg");
+}
+
+.img1 {
+	overflow:hidden;
+	width: 100%;
+	display: block;
+}
+
+.img2 {
+	    border-radius: 50%;
+    border: 5px solid white;
+    margin-top: -3.5rem;
+    margin-bottom: 0.75rem;
+}
+
+.main {
+	padding-bottom: 1.25rem;
+	background-color: #fff;
+}
+
+.name {
+	font-size: 18px;
+    font-weight: 700;
+    line-height: 1.8;
+    font-family: "Kumbh Sans", sans-serif;
+}
+
+span,p{
+	margin-left: 6px;
+}
+
+span, {
+	color: grey;
+}
+
+.city {
+	color: grey;
+	font-size: 0.9rem;
+	font-weight: 400px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 1.25rem;
+    border-top: 1px solid grey;
+}
+
+.ab {
+	margin-right: 3vh;
+	    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.8;
+}
+
+.tags {
+	color: grey;
+	font-size: 0.75rem;
+}
+
+.attribution {
+	text-align: center;
+}
